@@ -32,8 +32,8 @@ const services = {
 
 export default function Main() {
     return (
-        <main className="container max-w-full pb-20 bg-regular text-white font-sans">
-            <div className="container w-3/5 m-auto grid grid-cols-2 grid-rows-2 gap-6">
+        <main className="container max-w-full pb-20 bg-regular text-white font-sans pt-20 max-md:pt-10">
+            <div className="container w-3/5 m-auto grid grid-cols-2 grid-rows-2 gap-6 max-lg:w-3/4 max-md:grid-cols-1 max-md:grid-rows-4 max-md:w-4/5">
                 <Service
                 imageSrc={services.service1.imageSrc}
                 heading={services.service1.header}

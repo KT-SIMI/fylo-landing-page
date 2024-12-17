@@ -27,8 +27,8 @@ const profiles = {
 export default function Testimonials() {
   return (
     <main className="bg-regular max-w-full py-20">
-      <img src={column} alt="" className="ml-48" />
-      <div className="container grid grid-cols-3 w-3/5 mx-auto gap-10">
+      <img src={column} alt="" className="ml-48 max-2xl:ml-20 max-md:mb-5" />
+      <div className="container grid grid-cols-3 w-3/5 mx-auto gap-10 max-2xl:w-3/4 max-lg:w-4/5 max-md:w-1/2 max-md:grid-cols-1 max-md:grid-rows-3">
         <Testimonial
           imageSrc={profiles.profile1.imageSrc}
           name={profiles.profile1.name}

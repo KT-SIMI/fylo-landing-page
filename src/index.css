@@ -4,3 +4,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+    #mobile-menu.is-active .bar:nth-child(1) {
+     transform: translateY(12px) rotate(45deg);
+     } 
+    #mobile-menu.is-active .bar:nth-child(3) {
+     transform: translateY(-12px) rotate(-45deg);
+     } 
