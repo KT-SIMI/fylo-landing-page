@@ -37,17 +37,17 @@ export default function Navbar() {
           
                      <ul className="max-md:hidden flex items-center list-none text-center float-right">
                     <li className="text-base">
-                        <a href="/" className="text-white flex justify-center px-2 h-full mr-9">
+                        <a href="/" className="text-white flex justify-center px-2 h-full mr-9 hover:text-demo-link">
                             Features
                         </a>
                     </li>
                     <li className="text-base">
-                        <a href="/" className="text-white flex justify-center px-2 h-full mr-9">
+                        <a href="/" className="text-white flex justify-center px-2 h-full mr-9 hover:text-demo-link">
                             Prices
                         </a>
                     </li>
                     <li className="text-base">
-                        <a href="/" className="text-white flex justify-center px-2 h-full mr-9">
+                        <a href="/" className="text-white flex justify-center px-2 h-full mr-9 hover:text-demo-link">
                             Signup
                         </a>
                     </li>
